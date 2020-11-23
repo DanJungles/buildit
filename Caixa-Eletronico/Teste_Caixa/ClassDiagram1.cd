@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cliente">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAACAAEAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teste_Caixa.Pessoa_Fisica">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pessoa_Fisica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teste_Caixa.Pessoa_Juridica">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pessoa_Juridica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teste_Caixa.Caixa_eletronico">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Caixa_eletronico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teste_Caixa.Notas">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAA=</HashCode>
+      <FileName>Caixa_eletronico.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Caixa_eletronico" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,51 @@
+Boa tarde Danilo,
+
+ 
+
+Conforme falamos:
+
+segue algumas perguntas em anexo.
+ 
+
+Temos 2 temas para o desafio, fica a seu critério utilizar um ou outro:
+ 
+
+Cadastro de padaria
+
+                Busca por localização, para retornar a padaria mais próxima
+
+                Utilizar um raio de busca de até 5 km
+
+                Retornar em primeiro a padaria que estiver aberta naquele horário
+
+                Detalhe da Padaria
+
+ 
+
+Cadastro de cédulas (dinheiro) (Caixa Eletrônico)
+
+                Informar quanto deseja Sacar
+
+                Algoritmo para no momento do saque sugerir notas
+
+                Consultar uma base/repositório para validar notas disponíveis.
+
+                Caso não houver match para sacar o valor desejado, sugerir o próximo valor disponível para saque.
+
+                Informar saque realizado, ou nova sugestão de saque.
+
+ 
+
+ 
+
+Tecnologias que devem ser utilizadas para este exercício:
+
+                C# .NET MVC / .net core web api
+
+                Para o Crud dos dados, utilizar o Entity Framework
+
+ 
+
+                Se quiser para a parte visual por utilizar Angular 5+, mas fica como opcional
+
+ 

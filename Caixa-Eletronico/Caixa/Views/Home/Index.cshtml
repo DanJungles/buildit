@@ -1,0 +1,31 @@
+﻿@model CaixaViewModel
+
+
+<div align="center">
+    <h2>Caixa Eletrónico</h2>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+<table>
+    <tr>
+        <th>Indique o valor a ser sacado</th>
+        <td>@Html.TextBoxFor(x => x.Valor_Saque)</td>
+        <td><input type="submit" class="btn btn-primary" /> </td>
+    </tr>
+    @foreach (var _nota in Model.List_Cedula)
+    {
+        @if(Model.Valor_Saque >0){
+            <tr>
+                <th>Nota: @_nota.Valor</th>
+                <td>Quantidade: @_nota.Quantidade</td>
+
+            </tr>
+        }
+
+    }
+    <tr>
+        <td>
+            @ViewBag.Resultado
+        </td>
+    </tr>
+</table>}
+</div>
